@@ -1,4 +1,4 @@
-li {
+.ratingItem {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,11 +13,11 @@ li {
     display: flex;
 }
 
-.stars img {
+.ratingImage {
     margin: 0 .25rem;
 }
 
-li p {
+.ratingText {
     font-size: .85rem;
     font-weight: 700;
     color: hsl(300, 43%, 22%);

@@ -1,0 +1,38 @@
+.reviewItem {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.reviewHeader {
+    display: flex;
+    align-items: center;
+}
+
+.reviewHeader img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: auto;
+    margin-right: 1.5rem;
+}
+
+.reviewHeader div p {
+    margin: 0;
+}
+
+.reviewHeader div p:nth-child(1) {
+    font-weight: 700;
+}
+
+.reviewHeader div p:nth-child(2) {
+    color: hsl(333, 80%, 67%);
+}
+
+.reviewItem p {
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: .85em;
+
+}

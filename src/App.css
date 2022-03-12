@@ -1,3 +1,11 @@
 .App {
   text-align: center;
+  position: relative;
+}
+
+.bg-pattern-top-mobile {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  z-index: -1
 }

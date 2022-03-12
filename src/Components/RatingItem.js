@@ -1,18 +1,19 @@
 import React from "react";
 import classes from "./RatingItem.module.css";
-import star from "../images/icon-star.svg";
+
+const star = "images/icon-star.svg";
 
 function RatingItem(props) {
 	return (
-		<li>
+		<li className={classes.ratingItem}>
 			<div className={classes.stars}>
-				<img src={star} alt="star" />
-				<img src={star} alt="star" />
-				<img src={star} alt="star" />
-				<img src={star} alt="star" />
-				<img src={star} alt="star" />
+				<img className={classes.ratingImage} src={star} alt="star" />
+				<img className={classes.ratingImage} src={star} alt="star" />
+				<img className={classes.ratingImage} src={star} alt="star" />
+				<img className={classes.ratingImage} src={star} alt="star" />
+				<img className={classes.ratingImage} src={star} alt="star" />
 			</div>
-			<p>{props.text}</p>
+			<p className={classes.ratingText}>{props.text}</p>
 		</li>
 	);
 }

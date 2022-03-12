@@ -6,6 +6,8 @@ import ReviewsList from "./Components/ReviewsList.js";
 function App() {
 	return (
 		<div className="App">
+			<img className="bg-pattern-top-mobile" src={"images/bg-pattern-top-mobile.svg"} alt="" />
+
 			<Header />
 			<RatingList />
 			<ReviewsList />
