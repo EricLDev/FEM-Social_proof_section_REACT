@@ -1,0 +1,12 @@
+h1 {
+    color: hsl(300, 43%, 22%);
+    margin-top: 3.5rem;
+    line-height: 2rem;
+}
+
+p {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    font-size: .9rem;
+    line-height: 1.5rem
+}
