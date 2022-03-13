@@ -23,3 +23,28 @@
     color: hsl(300, 43%, 22%);
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+    .ratingItem {
+        flex-direction: row;
+        width: 70%;
+        padding: 1rem 2rem;
+        margin: .5rem 0;
+    }
+
+    .ratingText {
+        margin: 0 0 0 1.5rem;
+    }
+
+    .ratingItem:nth-child(1) {
+        justify-self: start;
+    }
+
+    .ratingItem:nth-child(2) {
+        justify-self: center;
+    }
+
+    .ratingItem:nth-child(3) {
+        justify-self: end;
+    }
+}

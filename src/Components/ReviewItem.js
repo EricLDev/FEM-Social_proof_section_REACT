@@ -3,7 +3,7 @@ import classes from "./ReviewItem.module.css";
 
 function ReviewItem(props) {
 	return (
-		<li className={classes.reviewItem}>
+		<li className={classes.reviewItem} id={props.id}>
 			<div className={classes.reviewHeader}>
 				<img src={props.image} alt="img" />
 				<div>

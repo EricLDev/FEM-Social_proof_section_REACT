@@ -6,11 +6,11 @@ import ReviewsList from "./Components/ReviewsList.js";
 function App() {
 	return (
 		<div className="App">
-			<img className="bg-pattern-top-mobile" src={"images/bg-pattern-top-mobile.svg"} alt="" />
-
+			<img className="bg-pattern-top" src="images/bg-pattern-top-mobile.svg" alt="" />
 			<Header />
 			<RatingList />
 			<ReviewsList />
+			<img className="bg-pattern-bottom" src="images/bg-pattern-bottom-mobile.svg" alt="" />
 		</div>
 	);
 }

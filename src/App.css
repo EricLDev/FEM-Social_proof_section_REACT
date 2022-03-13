@@ -3,9 +3,38 @@
   position: relative;
 }
 
-.bg-pattern-top-mobile {
+.bg-pattern-top {
   position: absolute;
   top: -5rem;
-  left: 0;
+  left: -2rem;
   z-index: -1
+}
+
+.bg-pattern-bottom {
+  position: absolute;
+  bottom: 0;
+  right: -1.5rem;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .bg-pattern-top {
+    content: url("/public/images/bg-pattern-top-desktop.svg")
+  }
+
+  .bg-pattern-bottom {
+    content: url("/public/images/bg-pattern-bottom-desktop.svg");
+    bottom: -5rem;
+    right: -8.5rem;
+  }
+
 }

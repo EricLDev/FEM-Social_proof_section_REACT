@@ -4,7 +4,7 @@ import ReviewItem from "./ReviewItem";
 
 const reviews = [
 	{
-		id: 1,
+		id: "1",
 		image: "images/image-colton.jpg",
 		name: "Colton Smith",
 		title: "Verified Buyer",

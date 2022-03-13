@@ -8,6 +8,7 @@
 .reviewHeader {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .reviewHeader img {
@@ -34,5 +35,28 @@
     color: hsl(0, 0%, 100%);
     text-align: left;
     font-size: .85em;
+}
 
+@media screen and (min-width: 768px) {
+    .reviewItem {
+        justify-self: stretch;
+        height: 55%;
+        margin: 0;
+        padding: 2.5rem 2rem;
+
+    }
+
+    .reviewItem:nth-child(1) {
+        grid-column: 1/2;
+    }
+
+    .reviewItem:nth-child(2) {
+        grid-column: 2/3;
+        align-self: center;
+    }
+
+    .reviewItem:nth-child(3) {
+        grid-column: 3/4;
+        align-self: end;
+    }
 }
