@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FEM-Social_proof_section_REACT/static/css/main.6038e5f4.css",
+    "main.js": "/FEM-Social_proof_section_REACT/static/js/main.ddd98cba.js",
+    "static/js/787.698bd9ca.chunk.js": "/FEM-Social_proof_section_REACT/static/js/787.698bd9ca.chunk.js",
+    "index.html": "/FEM-Social_proof_section_REACT/index.html",
+    "static/media/bg-pattern-bottom-desktop.svg": "/FEM-Social_proof_section_REACT/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
+    "static/media/bg-pattern-top-desktop.svg": "/FEM-Social_proof_section_REACT/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
+    "main.6038e5f4.css.map": "/FEM-Social_proof_section_REACT/static/css/main.6038e5f4.css.map",
+    "main.ddd98cba.js.map": "/FEM-Social_proof_section_REACT/static/js/main.ddd98cba.js.map",
+    "787.698bd9ca.chunk.js.map": "/FEM-Social_proof_section_REACT/static/js/787.698bd9ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6038e5f4.css",
+    "static/js/main.ddd98cba.js"
+  ]
+}
