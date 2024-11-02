@@ -2,7 +2,7 @@
 	"name": "social-proof-section-react",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://ericl81.github.io/FEM-Social_proof_section_REACT/",
+	"homepage": "https://ericldev.github.io/FEM-Social_proof_section_REACT/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.2",
 		"@testing-library/react": "^12.1.4",

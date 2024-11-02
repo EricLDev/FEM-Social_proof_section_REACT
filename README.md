@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-using-react-6-h9XqQ4j]
-- Live Site URL: [https://ericl81.github.io/FEM-Social_proof_section_REACT/]
+- Live Site URL: [https://ericldev.github.io/FEM-Social_proof_section_REACT/]
 
 # Frontend Mentor - Social proof section
 
